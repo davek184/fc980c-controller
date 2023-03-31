@@ -13,7 +13,7 @@ Related project [USB-C Daughterboard](https://github.com/davek184/980_Usb_C_Daug
 * Added USB Molex EZ-Mate connector
 * Added RGB Underglow support (Norbauer Heavy-9 is the only case I know of that could take advantage of this)
 * Added MegaMan logo
-* Altered Boot0 so it can be shorted with tweasers for those who don't want to solder a switch
+* Altered Boot0 so it can be shorted with tweezers for those who don't want to solder a switch
 * Altered ISP header
 
 ## Firmware
