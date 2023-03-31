@@ -1,6 +1,9 @@
 # FC980C Controller
 Design modifications are based on parent [project](https://github.com/wlhlm/fc980c-controller).  
 
+![Image](https://i.imgur.com/SFc11gN.jpg)
+![ImageInstalled](https://i.imgur.com/FoyMTGV.jpg)
+
 ## Changes
 * Added USB SH Connector
 * Added USB Molex EZ-Mate connector
