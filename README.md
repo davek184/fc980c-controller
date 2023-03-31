@@ -3,6 +3,8 @@ Design modifications are based on parent [project](https://github.com/wlhlm/fc98
 
 Similar concept to Hasu 980c controller but it is a nice upgrade in processing limitations vs the Atmega32u4.
 
+Related project [USB-C Daughterboard](https://github.com/davek184/980_Usb_C_Daughterboard)
+
 ![Image](https://i.imgur.com/SFc11gN.jpg)
 ![ImageInstalled](https://i.imgur.com/FoyMTGV.jpg)
 
