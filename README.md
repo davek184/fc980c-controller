@@ -8,6 +8,9 @@ Related project [USB-C Daughterboard](https://github.com/davek184/980_Usb_C_Daug
 ![Image](https://i.imgur.com/SFc11gN.jpg)
 ![ImageInstalled](https://i.imgur.com/FoyMTGV.jpg)
 
+## Warning!!!
+There was something wrong with the last 2 batches of these.  2 out of 5 would not properly register the keyboard after flashing.  It was unclear if this a manufacturing mistake from JLCPCB or an issue with the compontents.  Did NOT have time to look into it further, use at your own risk!
+
 ## Changes
 * Added USB SH Connector
 * Added USB Molex EZ-Mate connector
