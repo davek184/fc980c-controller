@@ -1,14 +1,13 @@
 {
-    "keyboard_name": "FC980C",
+    "keyboard_name": "fc980c",
     "manufacturer": "Leopold",
-    "url": "https://github.com/wlhlm/fc980c-controller",
-    "maintainer": "wlhlm",
+    "url": "https://github.com/davek184/fc980c-controller",
+    "maintainer": "davek184",
 
     "usb": {
-        "vid": "0xFEED",
-        "pid": "0xF980",
-        "device_version": "2.0.0",
-
+        "vid": "0x4705",
+        "pid": "0xAAF8",
+        "device_version": "0.0.1"
         "max_power": 100
     },
 
@@ -27,6 +26,11 @@
         "backlight": false,
         "audio": false
     },
+	
+	"bootmagic":{
+		"enabled": true,
+		"matrix": [0,13]
+	},
 
     "build": {
         "lto": true
@@ -38,6 +42,11 @@
     },
 
     "debouce": 0,
+	
+	"eeprom": {
+		"driver": "i2c"
+	},
+	
 
     "indicators": {
         "num_lock": "A3",
@@ -45,6 +54,26 @@
         "scroll_lock": "A1",
         "on_state": 1
     },
+	
+	"rgblight": {
+		"led_count": 42,
+		"driver": "ws2812",
+		"animations": {
+			"breathing": true,
+			"rainbow_mood": true,
+			"rainbow_swirl": true,
+			"snake": true,
+			"christmas": true,
+			"gradient": true,
+			"alternating": true
+		},
+		
+	},
+	
+	"ws2812":{
+		"driver": "bitbang",
+		"pin": "A9"
+	},
 
     "layouts": {
         "LAYOUT": {
